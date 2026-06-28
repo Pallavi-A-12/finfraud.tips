@@ -1,14 +1,25 @@
 * {
-    font-family: Arial;
+    font-family: Helvetica;
     background-color:ghostwhite;
     margin:5px;
     padding:5px;
 }
-h1 {
+.tips {
+    justify-content: center;
+
+}
+.tips h1 {
+    background-color: black;
+    text-align:center;
     color:blue;
     font-size: 36px;
 }
-p {
+.tips h2 {
+    color:blueviolet;
+    font-size:25px;
+}
+.tips p {
     color:gray;
     font-size:18px;
+    text-wrap: inherit;
 }
