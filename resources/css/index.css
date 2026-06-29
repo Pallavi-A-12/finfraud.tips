@@ -1,3 +1,8 @@
+:root {
+    --primary:#FFCC00;
+    --secondary:#1E1E1E;
+}
+
 * {
     margin:0;
     padding:0;
@@ -7,12 +12,12 @@
 body {
     font-family:"Gill Sans","Lucida Sans", sans-serif;
     background:#EBEBEB;
-    color:#1E1E1E;
+    color:var(--secondary);
     line-height:1.7;
 }
 
 header {
-    background:#FFCC00;
+    background:var(--primary);
     padding:20px 20px;
 }
 
@@ -41,7 +46,7 @@ header p:hover {
 }
 
 .hero:hover {
-    box-shadow: 5px 5px 5px 5px #FFCC00;
+    box-shadow: 5px 5px 5px 5px var(--primary);
 }
 
 .hero h2 {
@@ -65,7 +70,7 @@ header p:hover {
 .card {
     background:white;
     padding:25px;
-    border-left:8px solid #FFCC00;
+    border-left:8px solid var(--primary);
     border-radius:12px;
     box-shadow:0 5px 12px rgba(0,0,0,.1);
     transition:.3s;
@@ -86,7 +91,7 @@ header p:hover {
 
 footer {
     margin-top:50px;
-    background:#1E1E1E;
+    background:var(--secondary);
     color:white;
     text-align:center;
     padding:25px;
